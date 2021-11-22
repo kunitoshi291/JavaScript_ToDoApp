@@ -33,4 +33,5 @@ taskSubmit.addEventListener('click', evt => {
 　　const task = taskValue.value;
 　　addTasks(task);
 　　taskValue.value = '';
+    // console.log(task);
 });
