@@ -24,12 +24,18 @@ body,html {
   background-color: papayawhip;
   width: 50%;
   height: 400px;
-  border-radius: 1rem;
-  /* margin-top: 2rem; */
-  min-height: 200px;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  min-height: 100px;
 }
 
 h2 {
+  font-size: 1.2rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+h3 {
   font-size: 1.2rem;
   padding: 1rem;
   text-align: center;
@@ -58,3 +64,13 @@ button:hover {
 .task_list {
   min-height: 200px;
 }
+
+.title {
+  background-color: palegreen;
+  width: 50%;
+  height: 400px;
+  border-radius: 2rem;
+  margin-top: 2rem; 
+  min-height: 100px;
+}
+
